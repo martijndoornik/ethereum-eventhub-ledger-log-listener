@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogListener", "LogListener.csproj", "{07AE6A63-2BE9-4528-93FB-7F52F377B03A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureEventhubProtocol", "..\AzureEventhubProtocol\AzureEventhubProtocol.csproj", "{DC52C9AF-F453-460C-B81D-C5F4BCCDD715}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07AE6A63-2BE9-4528-93FB-7F52F377B03A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07AE6A63-2BE9-4528-93FB-7F52F377B03A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07AE6A63-2BE9-4528-93FB-7F52F377B03A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07AE6A63-2BE9-4528-93FB-7F52F377B03A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC52C9AF-F453-460C-B81D-C5F4BCCDD715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC52C9AF-F453-460C-B81D-C5F4BCCDD715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC52C9AF-F453-460C-B81D-C5F4BCCDD715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC52C9AF-F453-460C-B81D-C5F4BCCDD715}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A0F5C5A-96D4-4147-B5A3-3F8AB2B22798}
+	EndGlobalSection
+EndGlobal

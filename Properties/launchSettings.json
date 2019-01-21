@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "LogListener": {
+      "commandName": "Project",
+      "commandLineArgs": "-ns qnh-ledger-hub -n qnh-ledger-hub-main -k /qevzuor4HJ2y1XVS6Rqw0Bmer1xnUEeE/coCAzKf8c= -kn LogListenerKey -cgn $Default -dbcs \"Server=tcp:qnh-ledger.database.windows.net,1433;Initial Catalog=qnh-ledger-log-listener;Persist Security Info=False;User ID=martijndoornik;Password=7D&2Bw9Jo%&p#76O;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;\""
+    }
+  }
+}
